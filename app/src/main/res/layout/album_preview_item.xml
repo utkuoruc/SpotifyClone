@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="album"
+            type="com.example.spotifyclone555.model.Album" />
+    </data>
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/dark_grey"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:setImage="@{album.imageSource}"
+            app:srcCompat="@drawable/queens_of_the_stone_age_lullabies_to_paralyze"
+            tools:srcCompat="@drawable/queens_of_the_stone_age_lullabies_to_paralyze" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_album_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{album.albumName}"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            style="@style/Widget.SpotifyClone555.TextView"
+            android:padding="2dp">
+        </com.google.android.material.textview.MaterialTextView>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_artist_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{album.artistName}"
+            android:textSize="11sp"
+            android:textColor="@color/grey"
+            android:padding="2dp"
+            style="@style/Widget.SpotifyClone555.TextView">
+        </com.google.android.material.textview.MaterialTextView>
+    </LinearLayout>
+</layout>

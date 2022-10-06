@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="album"
+            type="com.example.spotifyclone555.model.Album" />
+    </data>
+    <LinearLayout
+        android:id="@+id/linear_layout_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="4dp"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:layout_marginHorizontal="8dp">
+
+        <ImageView
+            android:id="@+id/image_album_cover"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:setImage="@{album.imageSource}"
+            app:srcCompat="@drawable/queens_of_the_stone_age_lullabies_to_paralyze"
+            tools:srcCompat="@drawable/queens_of_the_stone_age_lullabies_to_paralyze">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_margin="8dp">
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:minLines="1"
+                android:maxLines = "2"
+                android:textSize="16dp"
+                android:text="@{album.albumName}"
+                android:textStyle="normal"
+                android:layout_margin="2dp"
+                style="@style/Widget.SpotifyClone555.TextView">
+            </TextView>
+            <TextView
+                android:id="@+id/text_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:minLines="1"
+                android:maxLines = "2"
+                android:text="@{@string/album_and_artist(album.artistName)}"
+                android:textSize="12dp"
+                android:textStyle="normal"
+                android:textColor="@color/grey"
+                android:layout_margin="2dp"
+                style="@style/Widget.SpotifyClone555.TextView">
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

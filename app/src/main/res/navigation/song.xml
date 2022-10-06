@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/song"
+    app:startDestination="@id/songFragment">
+
+    <fragment
+        android:id="@+id/songFragment"
+        android:name="com.example.spotifyclone555.ui.song.SongFragment"
+        android:label="fragment_song"
+        tools:layout="@layout/fragment_song" >
+        <action
+            android:id="@+id/action_songFragment_to_album"
+            app:destination="@id/album">
+            <argument
+                android:name="album"
+                app:argType="com.example.spotifyclone555.model.Album" />
+        </action>
+    </fragment>
+    <include app:graph="@navigation/album" />
+</navigation>

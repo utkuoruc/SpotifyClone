@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SpotifyClone555</string>
+    <string name="channel_name">spotify_clone</string>
+    <string name="channel_description">spotify clone music service</string>
+    <string name="sign_up_free">Sign up free</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="login">Log in</string>
+    <string name="email_or_username">Email or username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="no_account">No account?</string>
+    <string name="click_here">Click here!</string>
+    <string name="already_have">Already have an account?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_library">Library</string>
+    <string name="jump_back_in">Jump back in</string>
+    <string name="example_album_name">Lullabies To Paralyze</string>
+    <string name="example_artist_name">Queens of the Stone Age</string>
+    <string name="album_and_artist">Album • %s</string>
+    <string name="what_do_you_want_to_listen_to">What do you want to listen to?</string>
+    <string name="search">Search</string>
+    <string name="most_recent">Most Recent</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="rock">Rock</string>
+    <string name="your_library">Your Library</string>
+
+</resources>

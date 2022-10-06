@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="song"
+            type="com.example.spotifyclone555.model.Song" />
+    </data>
+    <LinearLayout
+        android:id="@+id/linear_layout_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginVertical="2dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:orientation="vertical"
+            android:layout_marginVertical="4dp">
+            <TextView
+                android:id="@+id/text_song_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{song.songName}"
+                android:textStyle="normal"
+                android:minLines = "1"
+                android:maxLines = "1"
+                android:textSize="16sp"
+                style="@style/Widget.SpotifyClone555.TextView">
+            </TextView>
+            <TextView
+                android:id="@+id/text_artist_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{song.artistName}"
+                android:textColor="@color/grey"
+                android:textStyle="normal"
+                android:maxLines = "1"
+                android:textSize="14sp"
+                style="@style/Widget.SpotifyClone555.TextView">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/three_dots_icon"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="4dp"
+                android:src="@drawable/ic_baseline_more_vert_24">
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

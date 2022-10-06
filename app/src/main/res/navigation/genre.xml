@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/genre"
+    app:startDestination="@id/genreFragment">
+
+    <fragment
+        android:id="@+id/genreFragment"
+        android:name="com.example.spotifyclone555.ui.genre.GenreFragment"
+        android:label="GenreFragment"
+        tools:layout="@layout/fragment_genre">
+        <action
+            android:id="@+id/action_genreFragment_to_album"
+            app:destination="@id/album">
+            <argument
+                android:name="album"
+                app:argType="com.example.spotifyclone555.model.Album" />
+        </action>
+        <argument
+            android:name="genre"
+            app:argType="com.example.spotifyclone555.model.Genre" />
+    </fragment>
+    <include app:graph="@navigation/album" />
+</navigation>

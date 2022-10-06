@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.SpotifyClone555.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:fontFamily">@font/gotham_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">11sp</item>
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="Widget.SpotifyClone555.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="fontFamily">@font/gotham_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.SpotifyClone555.ImageButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:clickable">true</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+</resources>
