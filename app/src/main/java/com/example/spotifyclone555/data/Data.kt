@@ -312,7 +312,7 @@ class DataC {
 
         val album0 = Album("Lullabies To Paralyze","Queens Of The Stone Age",
             "https://github.com/utkuoruc/spotify_repo/raw/master/cover/lullabies-to-paralyze.jpg",
-            arrayListOf(song0,song1,song2,song3,song4,song5,song6,song7,song8,song9))
+            arrayListOf(song1,song2,song3,song4,song5,song6,song7,song8,song9,song0))
         val album1 = Album("Songs For The Deaf","Queens of the Stone Age",
             "https://github.com/utkuoruc/spotify_repo/raw/master/cover/songs-for-the-deaf.jpeg",
             arrayListOf(sftd_0,sftd_1,sftd_2,sftd_3,sftd_4))
