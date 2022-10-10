@@ -17,6 +17,8 @@ I used technologies and patterns such as
 - RecyclerView inside of a RecyclerView
 - Fragments
 - Material Components
+- Data Binding
+- View Binding
 
 ## Assets
 
@@ -28,7 +30,10 @@ I used technologies and patterns such as
 [<img src="assets/song.png" width="216" height="476"/>](assets/song.png)
 
 
-The part I struggled with was the Notification Player part. I know other Spotify Clone Apps out there don't have a Notification Player feature, but I wanted to implement it in order to gain extra functionality. Also, it actually can play music. 
+The part I struggled with was the Notification Player part. Other Spotify Clone Apps out there don't have a Notification Player feature, but I wanted to implement it in order to gain extra functionality.
+
+
+## How we supposed to test the application?
 
 You can run the application by simply opening it with Android Studio. I will also provide an APK file in apk directory, if there is no apk directory, then I probably didn't provided it yet so stay tuned
 
