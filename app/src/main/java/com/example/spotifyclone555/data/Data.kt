@@ -204,16 +204,16 @@ class DataC {
 
         val a4_song0 = Song(0,"Restless","Xzibit","Front 2 Back",
             "https://github.com/utkuoruc/spotify_repo/raw/master/music/front-2-back.mp3",
-            "https://github.com/utkuoruc/spotify_repo/raw/master/cover/damn.jpeg")
+            "https://github.com/utkuoruc/spotify_repo/raw/master/cover/restless.jpeg")
         val a4_song1 = Song(1,"Restless","Xzibit","X",
-            "https://github.com/utkuoruc/spotify_repo/raw/master/music/x.mp3",
-            "https://github.com/utkuoruc/spotify_repo/raw/master/cover/damn.jpeg")
+            "https://github.com/utkuoruc/spotify_repo/raw/master/music/xzibit-x.mp3",
+            "https://github.com/utkuoruc/spotify_repo/raw/master/cover/restless.jpeg")
         val a4_song2 = Song(2,"Restless","Xzibit","D.N.A. (Drugs-N-Alkahol)",
             "https://github.com/utkuoruc/spotify_repo/raw/master/music/dna-drugs-n-alkahol.mp3",
-            "https://github.com/utkuoruc/spotify_repo/raw/master/cover/damn.jpeg")
+            "https://github.com/utkuoruc/spotify_repo/raw/master/cover/restless.jpeg")
         val a4_song3 = Song(3,"Restless","Xzibit","Don't Approach Me",
             "https://github.com/utkuoruc/spotify_repo/raw/master/music/dont-aproach-me.mp3",
-            "https://github.com/utkuoruc/spotify_repo/raw/master/cover/damn.jpeg")
+            "https://github.com/utkuoruc/spotify_repo/raw/master/cover/restless.jpeg")
 
         val a5_song0 = Song(0,"DAMN.","Kendrick Lamar","BLOOD.",
             "https://github.com/utkuoruc/spotify_repo/raw/master/music/blood.mp3",

@@ -10,7 +10,7 @@ class HomeTimelineFactory {
 
             val albums = DataC.getAlbums()
 
-            val albumView1 = ItemView(arrayListOf(albums[1],albums[2],albums[3]),
+            val albumView1 = ItemView(arrayListOf(albums[1],albums[11],albums[3]),
                 ViewTypes.ALBUM_HORIZONTAL_RECYCLER.viewType,"Jump back in")
             val albumView2 = ItemView(arrayListOf(albums[4],albums[2],albums[9]),
                 ViewTypes.ALBUM_HORIZONTAL_RECYCLER.viewType,"Your playlists")
@@ -19,7 +19,7 @@ class HomeTimelineFactory {
             val albumView4 = ItemView(arrayListOf(albums[1],albums[2],albums[3],albums[4],albums[5],albums[6],albums[7],albums[0]),
                 ViewTypes.ALBUM_HORIZONTAL_RECYCLER.viewType,"2000's Metal")
 
-            val albumView5 = ItemView(arrayListOf(albums[0],albums[1],albums[2],albums[3],albums[5],albums[6]),
+            val albumView5 = ItemView(arrayListOf(albums[0],albums[1],albums[10],albums[3],albums[5],albums[6]),
                 ViewTypes.ALBUM_SIX_PACK.viewType,"Example Text")
 
             val blank = ItemView(arrayListOf(),ViewTypes.BLANK.viewType,"Example Text")
